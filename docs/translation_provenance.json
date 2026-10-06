@@ -1,0 +1,665 @@
+{
+  "release_role": "english_translation_and_reproduction_of_completed_v1",
+  "new_unseen_test": false,
+  "models_or_hyperparameters_changed": false,
+  "original_verification_protocol_id": "041d086aa4728fa13d88e95d454b756c18723255df2f2fd712dae59f16b14234",
+  "english_reproduction_protocol_id": "2ffa301e859eb9fa19a54b8561b8ff02aa4ef4ae0ba43be05b4898c1df88d3ee",
+  "python_files_compared": 69,
+  "non_text_ast_unchanged": true,
+  "original_source_sha256": {
+    "main.py": "727490910a257935d64f9f2c8ec3c0183b2851e3b9cad07edff9d7ab9e2f123f",
+    "tests/test_data_pipeline.py": "bf231ce6721faba3b479b25b715a7b97f5a67fc79c83b57eb7c6e4972ab05b0e",
+    "analyze_match.py": "f286015d86184a27cb2d95da466d59db85e55849bf6d62a32368e63bbc828165",
+    "tests/test_match_stats.py": "a05e12ed36e735b926e15c4231dd6f16a3d4272f0ec023f665eb5d2c474ef148",
+    "goal_model.py": "578e8a6092752114d191b547e774be45d81ea447a123993db9b8f73c6354b4eb",
+    "predict_match.py": "314380049bf5692185ed9483ca8abfd0e46846859e9bffa41b8be06bc04d9c17",
+    "tests/test_goal_model.py": "d272f505f2317cba6973dcd718a8002d25108f0d344a30897411dfb436131fbe",
+    "predict_probabilities.py": "a58a786bf20c91d358fc663fdf51f983c6f27f07553f066539e90c6d674798af",
+    "score_probabilities.py": "6bceba7b3867a709e03e4808e2139022f05e2ebc281c2b8af52826f1d7c9d8c6",
+    "tests/test_score_probabilities.py": "f4d978e291e426840548cccf881508bd9d0fd909d90be1b45d4a98092c5ac3c9",
+    "predict_smoothed.py": "23449b876e948d82078e4b2b267d1a54cceca2c1a1a5111344912bb94cada014",
+    "shrinkage_model.py": "2d0a5eeebfb77f09c1ffc429b258d8a0126a77c470ada04ffc345f76bb92bbab",
+    "tests/test_shrinkage_model.py": "794a68fcaa588df57247e43a3e67ee5c120ebde09d00122f6129d63c860be738",
+    "predict_time_weighted.py": "f36436076421275a77612923fd6247d0b68142eed86a294e1b6243ca567f3b17",
+    "tests/test_time_weighted_model.py": "7e48107efa912a7a20dbd4ab143ecd1d757212a5b0eae78af09a30b6cc4ec924",
+    "time_weighted_model.py": "f3d4090ff7ff0e58b05719b11fa260c787276fa1fc7f177524856c2069d538d7",
+    "backtest_models.py": "5f0e3a1ae9965aea20966dbb07ff498ab2db7c8bacce32f187f11ddc4977e0c9",
+    "evaluation_metrics.py": "4a414a04cb48ba77dd1b74856fdd1867166cc768e16f94f7b2f5421dce81bd18",
+    "run_backtest.py": "85bcca4ee6202cd550e7372574a80a416c7a0864379ae1edd76bcadb92e6fdb1",
+    "tests/test_backtest_models.py": "cabdebd76fba15ea512446e9b0a071022ecd4f0967d701edce8aedf197818971",
+    "tests/test_evaluation_metrics.py": "8d2fc08fa26d3fe6921bbfc7e0e904c0778e3b2ce9d29431af5cb6b2952e9ed1",
+    "analyze_calibration.py": "63fadec997b5281185c0cce8b2f8690d2ab8ad7dab029523c61659b365cfa3b5",
+    "calibration_analysis.py": "bfca52064e28d7115a3b7a800a1e91a948d2af2d8c0b4cd1a889a4926810bd92",
+    "calibration_plots.py": "c90f8b42998f9b456d22b5e29c4ce732e57c16276ae16996008e0879e0490a8f",
+    "tests/test_calibration_analysis.py": "bb2af4dac15d61b867b7fa78123f0196259a968eeb3fb3978382a0f2aa06f0f0",
+    "prepare_validation_data.py": "f12a8ec04eb6ba9d3977009b1b413d73f52c71daa527479709a61628e06241d9",
+    "tests/test_validation_data.py": "0c5500d1f0a81f3c806a6d14fb538826a5e7b5e40cb19a4cb3899905da06ca21",
+    "validate_next_season.py": "7098b060d463014c8d260e92670ce59372aa38c7e0a02c74addfdbbac30d770b",
+    "validation_data.py": "6e49afb92a6e7bb49b79d48e0c0616c2f117946237b4abefd617c0a0754aa548",
+    "fitted_poisson_model.py": "d517e9b75bbb00b01e001dd68e67cd03949c5ae2a7649b354be532097ef91022",
+    "predict_fitted_poisson.py": "10417ba23226c1e9abda17b8d8ecaab7ba189aa46f120004e6d653ab7f547ddb",
+    "tests/test_fitted_poisson_model.py": "c70307db470def41fa0a7feb00ca97c7207de8abc5a36ac8a8fcb67a4ff84d66",
+    "comparison_reports.py": "6006ce4e312179dd2777925fca0a1415455b84f0d598ad102fb93fb80136c90d",
+    "fitted_backtest.py": "4dafa185224bf01b2838c1edc3e9a76692368ab700e7df49b41e1ae98506c817",
+    "run_fitted_backtest.py": "88422c4e00184a9ed2fd7c5333702c0ec6634fed3fbdd8c721dd15cabe663312",
+    "tests/test_fitted_backtest.py": "0c53c12b95e670f3e1c71f4bc4c3042599490287f0aa5748f581f92dc72fbfc6",
+    "analyze_uncertainty.py": "1dd92521534a3e9c4936cff7a3a14d11e1ec6d7a6a3aa18c96b79f9f82492a59",
+    "tests/test_uncertainty_analysis.py": "663b7fcefec5a0ee71711eac1a82feb515430a441f616f06693ea7c43994f605",
+    "tests/test_uncertainty_reports.py": "3be18757b2ac5bb61044b9730529934c8c2c49eeebcae6327152584f28b3f4b5",
+    "uncertainty_analysis.py": "709e08614f64a265f3eccbc0d9c75a06c58f6f3a1cd661ec6019e1d8c5007d70",
+    "uncertainty_reports.py": "b443e19b04643b7df1ab526eccb7827a66e1bc2ea6e95d243c1ad25a6a99e6ce",
+    "dixon_coles_model.py": "e197300f8d0948badac3012bc28726faba167bb754f1b4d99b026934a21f53ff",
+    "dixon_coles_probabilities.py": "58b7fa3c5a1a615d4a08668a87ca74a4d3d77a6f77565f8e5516b4bfa1ffd451",
+    "predict_dixon_coles.py": "5ba91769daeb2f0680e0506899a9c158a6b608dcc771dbac348843e7c93dff92",
+    "tests/test_dixon_coles_model.py": "9a010e79f1bef560544a51875c11bdd65152784d152bf56a562eb7e2e9ba0377",
+    "tests/test_dixon_coles_probabilities.py": "11a11ee3aef8bfe89697eb50ee5de0bd1a41b15da0d348e37e0eb1de85a0f954",
+    "dixon_coles_backtest.py": "33db05c0a3fc95b0d9976222581aa7611bfce8dff874613e9cfa2637e1847aac",
+    "dixon_coles_reports.py": "03c43dcd495566128b024fb9265cd06ebcd35a483089d6d32f083c7abf82d734",
+    "run_dixon_coles_backtest.py": "8b3690d2ba5bdc9b811a1f7fd2ac55c34e1f17651f737b321139b36f39d1db0d",
+    "tests/test_dixon_coles_backtest.py": "88b702a25c8ee90ba188e471fad9bdea6e1f2c11aead22f92d04f567aed949da",
+    "tests/test_dixon_coles_reports.py": "612cb4ff27b0b479c7c124d5ece488fe03011269c153c827aef568e2a961b5f4",
+    "analyze_dixon_coles_uncertainty.py": "99171d1d235e964a4315736dc569afdda4f65a6f2c93626f53c6b0f9e6f8e320",
+    "dixon_coles_uncertainty.py": "ab16d44d489e7ef9a8a6a25f6fc381ebf254ca5ba26074283d3d12aa24ef227c",
+    "dixon_coles_uncertainty_reports.py": "eea8078f55ebdea86820ded1c9386aa9d0e2ae76d8b577ab5e2478446d9296da",
+    "tests/test_dixon_coles_uncertainty.py": "9f1122df11182cfe05881533a033df283c64c8014826c93df3a650372f4de70d",
+    "tests/test_dixon_coles_uncertainty_reports.py": "a336b43af56e00527ffb94b320c7e2f1834ef3046fcd402a492be6d38e5b2332",
+    "final_test_protocol.py": "164cd44d90d15533374c0b9b232a4ae6d30c4b678bc185c947331e6ed5d3c808",
+    "freeze_final_test.py": "eef21a3d413072d144fa55f3da97fed157222725e46ca47164b676cffd241f86",
+    "model_selection_reports.py": "a4223fb3d8f2b0e02240997548ec5459982fe38b0d3e6ed38df722fa1bd14c8e",
+    "tests/test_final_test_protocol.py": "693e8157cfba2d632bd0b3ed856c010a3622efbc19d05689ea0ba65610c2a45c",
+    "tests/test_model_selection_reports.py": "3ba9a91046da190075eda998fc6c48a6c38c86376a9895cecfc99c5b2394bded",
+    "final_test_backtest.py": "7ee334f1e1b09b767323a99de61dc57121c2ec394262d59e345d80af1e46f788",
+    "final_test_data.py": "c87030c15f25ce1886b29831326872c2dba35ad3e6b8ab1dfaa9c6c5c8de6b59",
+    "final_test_reports.py": "aa9d6f8c4670b42c886037d53b526b2973945be57447153c6f10ce19a9e140c7",
+    "prepare_final_test_data.py": "a528a13f1024ef159527d621c88109c0cf771d4e0880ee2886ad949e2eaa236a",
+    "run_final_test.py": "6a20295c5050babfad7d55e0155a2f5e35471b8f0004ed102de6ee3f4835c542",
+    "tests/test_final_test_backtest.py": "f2811effa39a60021fa409f0d29eab49fcef6b6fc12820e78817dffa2944b3cd",
+    "tests/test_final_test_data.py": "0a68dbd461ad10a16811f1da32ce43985bda0bbdf81c918cdfd48a933b855857",
+    "tests/test_final_test_reports.py": "0620fa178e5a9b5fb15f89c9270ca40a5353f896ab9add21e57b9896c8574753"
+  },
+  "english_source_sha256": {
+    "main.py": "c1d7e148bddff57dd80e5bf3ecfb0f2c86202a2b65c8ba68a018202674b041df",
+    "tests/test_data_pipeline.py": "ebe4a33c66e8d8e3ec641a9b2f24e392b1a98b0e7c7be8698a95bebae73a2a1e",
+    "analyze_match.py": "c41b38a762d60ebb18cbf535a34e91111ad3749eeb3c01cc2ff19703c8739ad4",
+    "tests/test_match_stats.py": "eba05287d4ce1d887f8b33f3e899e7edee79a57994d6317c1701d9e59ef72a5f",
+    "goal_model.py": "a65f8581412f5940dbe714573c0eb49264755640e9bf5a1b01bf4882abe16354",
+    "predict_match.py": "d45f4eab8d74b5197643f104d1382c46cf0b9ac573f1777049f70bb4b7480bf5",
+    "tests/test_goal_model.py": "ff2a9029d4e825802d0a3ada41d665142a80ce629f0d3a1895878a0bd373fc20",
+    "predict_probabilities.py": "13645185c5bef560c4f575825330dab3ce0f28516fea0a495ce2b53fec6d7fc2",
+    "score_probabilities.py": "b0100b5507a714c6c25bd8e4083c07a556592f1b1482ae91069bb62d67e31334",
+    "tests/test_score_probabilities.py": "202f96e9899f48bda7bd5876c3e142c502114be7c28fecc616ea61012a8e175f",
+    "predict_smoothed.py": "2fd6d95cab2f84937d19e143ccff37a2b3afa825033a510fb482d42dce6aed52",
+    "shrinkage_model.py": "074b33c8a3d7829d5ad28db6cd97cd377a6c399dbcd1af573d0c5a922bd4ad02",
+    "tests/test_shrinkage_model.py": "794a68fcaa588df57247e43a3e67ee5c120ebde09d00122f6129d63c860be738",
+    "predict_time_weighted.py": "fd4792789642ae750950b27ef9bc31ba1c0ed276518a0e864a2ea91023740bb1",
+    "tests/test_time_weighted_model.py": "84ece6a36c8b6aa595f82663a4dbe714ae65c2c4ef6b06a00ac711d2277d7ba3",
+    "time_weighted_model.py": "d53a7f02c42777b62de500cc652f848410189d9705cd471aa87778f4b54e30b4",
+    "backtest_models.py": "76730476fa64792fb32b21fab34b4206b916e5f5f781b4c8e8293ab914d88476",
+    "evaluation_metrics.py": "a1ad4571910cd194c2ead5ef670dcaae02b14077d3b2ed878cd24c7deb9b372f",
+    "run_backtest.py": "1e414f35abc5b7db2d9ef0e4d8b90f22a86a9e7162831ec054def1d96959892c",
+    "tests/test_backtest_models.py": "1ce9b82c71f471049e03d323d9393ae447daa169b3aa2a5c00a1079aa188f773",
+    "tests/test_evaluation_metrics.py": "63d4108c0ebdddfb43064e3bbdcbab104da01f67167c798213ac11d03c7254f7",
+    "analyze_calibration.py": "94ab6596109fb4836fd598de31b73b4b66e04ef8537a5830a5d8f67239f7df79",
+    "calibration_analysis.py": "f7cd1509bdd6ca576a854ee5b3f0a5857e113609f6acda23b97bad2c2875a6fc",
+    "calibration_plots.py": "1e8375e1bd551917b78c2e992c7b64cbb8591386036cd20b59dad3576738902c",
+    "tests/test_calibration_analysis.py": "7af1aa34eb5b2c557509a80fe777e30dce61ecc1a117296c9349f70b10648575",
+    "prepare_validation_data.py": "57c3e0aada20e47c2be212452b1de270aba602723b33cc151c900d00e2afea03",
+    "tests/test_validation_data.py": "bcc41c1f82171c3b686f04df897593577b5271459a3f2636552601589d852522",
+    "validate_next_season.py": "390998b4f94988f29b42a9049868cfff5fa908a82006a67c48629a60ff978b54",
+    "validation_data.py": "502220f653e7160d24c186d9461724787a98233326b43f1f9057e6ee5c36f920",
+    "fitted_poisson_model.py": "b74b939fe0ccd9a733b3524f780a08ce11a508fcac4fdc6c631e73bc8c21cbed",
+    "predict_fitted_poisson.py": "ec16fbf0f8666133cfeb663a46ea0180d39d21bb5e445c590e687adba5fe9cf8",
+    "tests/test_fitted_poisson_model.py": "2a6f63964cf3659fdf97cd2ec905e46369023d682aa6c9ff40dab1ee9f2bd549",
+    "comparison_reports.py": "1e0786edcf244de54d7ebd515a017807492138aaa18c5484d49f86e439658ec5",
+    "fitted_backtest.py": "8ade4268d35cdb96af50b3f03db2630ab3f64e150da2b4e004a5a5ca6bbfdc33",
+    "run_fitted_backtest.py": "07c2ee2b5a227b0876f334efdcb1e4212cfaf331217acb70f4ed466e0d5068c6",
+    "tests/test_fitted_backtest.py": "703a62c58272cdf8582e5d73db2fbb7db46106bdb4f018f84c758816d0b7b81d",
+    "analyze_uncertainty.py": "84e88b0c2dbc4d57f79fd3ae40898eb8fbcc66fcad64bcbd0b561e3c9c64feab",
+    "tests/test_uncertainty_analysis.py": "8a96f4479d4af323a7cee8bc67c93bafb5a661b90240acb32a734cea1791d575",
+    "tests/test_uncertainty_reports.py": "f2e64b9595a9061f7001e4fa9f044f71afa8312f59c9ef22d5394f2040403b36",
+    "uncertainty_analysis.py": "da7f11d29060457431cbf50c76435610877484046f07bab2f08f30c79d354547",
+    "uncertainty_reports.py": "ba14748fd766fd029444d52fbc40b3e84cca20d84086d7beee9279e57828fcaa",
+    "dixon_coles_model.py": "8385ae4386426812b567f13d9541f09e65a54e36cb1fdf5418aaec7a93249785",
+    "dixon_coles_probabilities.py": "6fff11c4be250b056a5070f27b6600c984332941fdd2c2dc7ae59cafe00bda39",
+    "predict_dixon_coles.py": "6cf154e6f388415da0a257a4408cbce64224612829c0c5fa3166118a80d56541",
+    "tests/test_dixon_coles_model.py": "181dd2bc077b4e03046085ba8356edcef58abc187e52744681c7ff3dd318f44e",
+    "tests/test_dixon_coles_probabilities.py": "dfa68d3db5d92e796b457caaa872969e6c16b7ffac45a71ab22d25288c31f55e",
+    "dixon_coles_backtest.py": "30580466354e18f7b88a40bf9f6b69968242fe52fa5c255da872f0baefa9fd83",
+    "dixon_coles_reports.py": "9b449340f28014501fef61f7d839d22414240a6d236ef2eb70882ab60cb70600",
+    "run_dixon_coles_backtest.py": "eac7549addb84d0839bacd4d9c0dddc8c8d7f247e20b13bef957f1294f7021c5",
+    "tests/test_dixon_coles_backtest.py": "8277466b6bc5e895d8043fea556dc8d7e8fc25623c2189e42e02afad26a20502",
+    "tests/test_dixon_coles_reports.py": "c9d8cb282131d67ce40ee89e65e92bd317d38416cdb57c7fa90885faf533922f",
+    "analyze_dixon_coles_uncertainty.py": "dc7949cc1ff32e58d12e8c6348fc8af9f9a9952bb207d911bf3934b3e27e61c9",
+    "dixon_coles_uncertainty.py": "d7cb6bfc3740133e19d009dd02bfbbc782d3030c11227895d8677eba453976ff",
+    "dixon_coles_uncertainty_reports.py": "d62b86272f1647028b56616de185ff496c7116e6ed54422d8b64e71a33733443",
+    "tests/test_dixon_coles_uncertainty.py": "56f71b14ac5c4eb69137be0186c60935026cad9887ecdf41065852cffb4c9851",
+    "tests/test_dixon_coles_uncertainty_reports.py": "9be93e980ffc6c3f38369924c7744d5e2b7b620fa6f50cb421d7664f95649db2",
+    "final_test_protocol.py": "d6f3044a992073f2d4019bb32461077bec65ed8b6407c2ebe61ad7de7a577556",
+    "freeze_final_test.py": "e39247e4732be0bd34c5e1c7093ca1aa6940b2f3ce7e164f6dbf33f11b79a501",
+    "model_selection_reports.py": "f5fa68abefac5eb3ca0e3a98b835563b2167ed300fd3c944bf8fdc9a3fb1d06e",
+    "tests/test_final_test_protocol.py": "835e45591ac07d0aa23fa18622b546cab19d6fa0ef61a3a54f8a70e41deca30c",
+    "tests/test_model_selection_reports.py": "0fc6a921b2ebb913e4771034b42545f28f54ad845788f682551bb5dbc738c8dd",
+    "final_test_backtest.py": "63433739e0c6d74891a34a2a80c6d10b0ea4523751c141a64509f863cf244957",
+    "final_test_data.py": "09661f0307314ea075ae2926bb05b5a233536ed8e405583cedb8e193f1ac6c87",
+    "final_test_reports.py": "12ba5668bf79106ebdbe47809dc12302a8f1ff097fbceba646d1f2bc1855c43c",
+    "prepare_final_test_data.py": "8519dd03222aefcd961c3d62c0ca8f2b99a0a11c4071db94eccb5a86c5edb511",
+    "run_final_test.py": "236ede24900cd45a23303c4676a1d5e2837f0249621b24a9ee705e76e2356d42",
+    "tests/test_final_test_backtest.py": "1abda0d65c705cde1861dd0a421890a60e53f1b06983faab4d07958534a63f00",
+    "tests/test_final_test_data.py": "7dc33915b5681fcfde54df05040c5b1545cb0da418d0071c10f0f96bc6576ccb",
+    "tests/test_final_test_reports.py": "06364e76d9777cc33bce4d62ed9d307228792012435d7685c92fa67a0160ff09"
+  },
+  "original_project_files_unchanged": 149,
+  "processed_data_byte_identical": [
+    "data/processed/matches_clean.csv",
+    "data/processed/matches_validation.csv",
+    "data/processed/matches_final_test.csv"
+  ],
+  "raw_data_byte_identical": [
+    {
+      "file": "data/raw/E0_2022_2023.csv",
+      "sha256": "8442792d3b614c94ea3cf381bd2736805889cc1713169035368fff19c3d02380"
+    },
+    {
+      "file": "data/raw/E0_2024_2025.csv",
+      "sha256": "464d8be538f925febc5093d8ba6995b297991e4b7e4f66c3f4a06ff8dd119712"
+    },
+    {
+      "file": "data/raw/E0_2021_2022.csv",
+      "sha256": "335afcbabeb2939fa10ab39ba3e8215072d0b577cb8d0705c1e44c56e934e703"
+    },
+    {
+      "file": "data/raw/E0_2025_2026.csv",
+      "sha256": "3e3a8352f9ada6789c508d6ca184424421fed56a30400904a4a327c583407e62"
+    },
+    {
+      "file": "data/raw/E0_2023_2024.csv",
+      "sha256": "b2e057b0ed959f198b0f63d2391c01239f3608e6de5db68edab3f88e04d07ff3"
+    }
+  ],
+  "compared_reports": [
+    {
+      "file": "data/reports/backtest_predictions_2023_24.csv",
+      "rows": 1520,
+      "numeric_columns": 42,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/backtest_predictions_2024_25.csv",
+      "rows": 1520,
+      "numeric_columns": 42,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/backtest_summary_2023_24.csv",
+      "rows": 4,
+      "numeric_columns": 23,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/backtest_summary_2024_25.csv",
+      "rows": 4,
+      "numeric_columns": 23,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/calibration_comparison_2023_24_2024_25.csv",
+      "rows": 56,
+      "numeric_columns": 8,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/diagnostics/calibration_bins_2024_25.csv",
+      "rows": 280,
+      "numeric_columns": 10,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/diagnostics/calibration_summary_2024_25.csv",
+      "rows": 28,
+      "numeric_columns": 8,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/dixon_coles/low_score_effects_2023-08-12_arsenal_nottingham_forest.csv",
+      "rows": 4,
+      "numeric_columns": 7,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/dixon_coles/match_comparison_2023-08-12_arsenal_nottingham_forest.csv",
+      "rows": 3,
+      "numeric_columns": 10,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/dixon_coles/team_parameters_2023-08-12_arsenal_nottingham_forest.csv",
+      "rows": 23,
+      "numeric_columns": 8,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/dixon_coles_backtest/calibration_bins_2023_24.csv",
+      "rows": 420,
+      "numeric_columns": 10,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/dixon_coles_backtest/calibration_bins_2024_25.csv",
+      "rows": 420,
+      "numeric_columns": 10,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/dixon_coles_backtest/calibration_summary_2023_24.csv",
+      "rows": 42,
+      "numeric_columns": 8,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/dixon_coles_backtest/calibration_summary_2024_25.csv",
+      "rows": 42,
+      "numeric_columns": 8,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/dixon_coles_backtest/comparison_predictions_2023_24.csv",
+      "rows": 2280,
+      "numeric_columns": 54,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/dixon_coles_backtest/comparison_predictions_2024_25.csv",
+      "rows": 2280,
+      "numeric_columns": 54,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/dixon_coles_backtest/comparison_summary_2023_24.csv",
+      "rows": 6,
+      "numeric_columns": 23,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/dixon_coles_backtest/comparison_summary_2024_25.csv",
+      "rows": 6,
+      "numeric_columns": 23,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/dixon_coles_backtest/correction_effects_2023_24.csv",
+      "rows": 6,
+      "numeric_columns": 7,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/dixon_coles_backtest/correction_effects_2024_25.csv",
+      "rows": 6,
+      "numeric_columns": 7,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/dixon_coles_backtest/fitting_diagnostics_2023_24.csv",
+      "rows": 120,
+      "numeric_columns": 24,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/dixon_coles_backtest/fitting_diagnostics_2024_25.csv",
+      "rows": 109,
+      "numeric_columns": 24,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/dixon_coles_backtest/paired_loss_differences_2023_24.csv",
+      "rows": 30,
+      "numeric_columns": 4,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/dixon_coles_backtest/paired_loss_differences_2024_25.csv",
+      "rows": 30,
+      "numeric_columns": 4,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/dixon_coles_backtest/two_seasons_summary_2023_24_2024_25.csv",
+      "rows": 12,
+      "numeric_columns": 23,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/dixon_coles_uncertainty/block_sensitivity_2023_24.csv",
+      "rows": 30,
+      "numeric_columns": 7,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/dixon_coles_uncertainty/block_sensitivity_2024_25.csv",
+      "rows": 30,
+      "numeric_columns": 7,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/dixon_coles_uncertainty/bootstrap_intervals_2023_24.csv",
+      "rows": 90,
+      "numeric_columns": 14,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/dixon_coles_uncertainty/bootstrap_intervals_2023_24_2024_25.csv",
+      "rows": 180,
+      "numeric_columns": 14,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/dixon_coles_uncertainty/bootstrap_intervals_2024_25.csv",
+      "rows": 90,
+      "numeric_columns": 14,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/dixon_coles_uncertainty/paired_match_losses_2023_24.csv",
+      "rows": 1900,
+      "numeric_columns": 20,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/dixon_coles_uncertainty/paired_match_losses_2024_25.csv",
+      "rows": 1900,
+      "numeric_columns": 20,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/final_test/block_sensitivity_2025_26.csv",
+      "rows": 12,
+      "numeric_columns": 7,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/final_test/bootstrap_intervals_2025_26.csv",
+      "rows": 36,
+      "numeric_columns": 14,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/final_test/calibration_bins_2025_26.csv",
+      "rows": 210,
+      "numeric_columns": 10,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/final_test/calibration_summary_2025_26.csv",
+      "rows": 21,
+      "numeric_columns": 8,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/final_test/final_predictions_2025_26.csv",
+      "rows": 1140,
+      "numeric_columns": 46,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/final_test/final_summary_2025_26.csv",
+      "rows": 3,
+      "numeric_columns": 23,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/final_test/fitting_diagnostics_2025_26.csv",
+      "rows": 114,
+      "numeric_columns": 11,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/final_test/paired_match_losses_2025_26.csv",
+      "rows": 760,
+      "numeric_columns": 20,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/fitted_backtest/calibration_bins_2023_24.csv",
+      "rows": 350,
+      "numeric_columns": 10,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/fitted_backtest/calibration_bins_2024_25.csv",
+      "rows": 350,
+      "numeric_columns": 10,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/fitted_backtest/calibration_summary_2023_24.csv",
+      "rows": 35,
+      "numeric_columns": 8,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/fitted_backtest/calibration_summary_2024_25.csv",
+      "rows": 35,
+      "numeric_columns": 8,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/fitted_backtest/comparison_predictions_2023_24.csv",
+      "rows": 1900,
+      "numeric_columns": 46,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/fitted_backtest/comparison_predictions_2024_25.csv",
+      "rows": 1900,
+      "numeric_columns": 46,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/fitted_backtest/comparison_summary_2023_24.csv",
+      "rows": 5,
+      "numeric_columns": 23,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/fitted_backtest/comparison_summary_2024_25.csv",
+      "rows": 5,
+      "numeric_columns": 23,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/fitted_backtest/fitting_diagnostics_2023_24.csv",
+      "rows": 120,
+      "numeric_columns": 11,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/fitted_backtest/fitting_diagnostics_2024_25.csv",
+      "rows": 109,
+      "numeric_columns": 11,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/fitted_backtest/paired_loss_differences_2023_24.csv",
+      "rows": 24,
+      "numeric_columns": 4,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/fitted_backtest/paired_loss_differences_2024_25.csv",
+      "rows": 24,
+      "numeric_columns": 4,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/fitted_backtest/two_seasons_summary_2023_24_2024_25.csv",
+      "rows": 10,
+      "numeric_columns": 23,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/model_selection/dc_vs_poisson_uncertainty_2023_24_2024_25.csv",
+      "rows": 36,
+      "numeric_columns": 14,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/model_selection/model_selection_evidence_2023_24_2024_25.csv",
+      "rows": 12,
+      "numeric_columns": 26,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/season_comparison_2023_24_2024_25.csv",
+      "rows": 8,
+      "numeric_columns": 23,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/uncertainty/block_sensitivity_2023_24.csv",
+      "rows": 24,
+      "numeric_columns": 7,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/uncertainty/block_sensitivity_2024_25.csv",
+      "rows": 24,
+      "numeric_columns": 7,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/uncertainty/bootstrap_intervals_2023_24.csv",
+      "rows": 72,
+      "numeric_columns": 14,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/uncertainty/bootstrap_intervals_2023_24_2024_25.csv",
+      "rows": 144,
+      "numeric_columns": 14,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/uncertainty/bootstrap_intervals_2024_25.csv",
+      "rows": 72,
+      "numeric_columns": 14,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/uncertainty/paired_match_losses_2023_24.csv",
+      "rows": 1520,
+      "numeric_columns": 20,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "data/reports/uncertainty/paired_match_losses_2024_25.csv",
+      "rows": 1520,
+      "numeric_columns": 20,
+      "maximum_absolute_difference": 0.0
+    }
+  ],
+  "numeric_comparison": {
+    "relative_tolerance": 1e-10,
+    "absolute_tolerance": 1e-11,
+    "maximum_absolute_difference": 0.0
+  },
+  "test_suite": {
+    "tests_run": 334,
+    "result": "passed"
+  },
+  "entry_point_runs": [
+    {
+      "program": "main.py",
+      "exit_code": 0,
+      "seconds": 0.576
+    },
+    {
+      "program": "run_backtest.py",
+      "exit_code": 0,
+      "seconds": 4.752
+    },
+    {
+      "program": "analyze_calibration.py",
+      "exit_code": 0,
+      "seconds": 2.159
+    },
+    {
+      "program": "prepare_validation_data.py",
+      "exit_code": 0,
+      "seconds": 0.394
+    },
+    {
+      "program": "validate_next_season.py",
+      "exit_code": 0,
+      "seconds": 5.485
+    },
+    {
+      "program": "run_fitted_backtest.py",
+      "exit_code": 0,
+      "seconds": 8.599
+    },
+    {
+      "program": "analyze_uncertainty.py",
+      "exit_code": 0,
+      "seconds": 2.724
+    },
+    {
+      "program": "run_dixon_coles_backtest.py",
+      "exit_code": 0,
+      "seconds": 77.691
+    },
+    {
+      "program": "analyze_dixon_coles_uncertainty.py",
+      "exit_code": 0,
+      "seconds": 4.842
+    },
+    {
+      "program": "freeze_final_test.py",
+      "exit_code": 0,
+      "seconds": 4.287
+    },
+    {
+      "program": "prepare_final_test_data.py",
+      "exit_code": 0,
+      "seconds": 0.451
+    },
+    {
+      "program": "run_final_test.py",
+      "exit_code": 0,
+      "seconds": 8.143
+    },
+    {
+      "program": "analyze_match.py",
+      "exit_code": 0,
+      "seconds": 0.38
+    },
+    {
+      "program": "predict_match.py",
+      "exit_code": 0,
+      "seconds": 0.332
+    },
+    {
+      "program": "predict_probabilities.py",
+      "exit_code": 0,
+      "seconds": 0.295
+    },
+    {
+      "program": "predict_smoothed.py",
+      "exit_code": 0,
+      "seconds": 0.346
+    },
+    {
+      "program": "predict_time_weighted.py",
+      "exit_code": 0,
+      "seconds": 0.342
+    },
+    {
+      "program": "predict_fitted_poisson.py",
+      "exit_code": 0,
+      "seconds": 0.668
+    },
+    {
+      "program": "predict_dixon_coles.py",
+      "exit_code": 0,
+      "seconds": 0.812
+    }
+  ]
+}

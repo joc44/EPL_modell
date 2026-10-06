@@ -1,0 +1,21 @@
+{
+  "step": "10a",
+  "validation_season": "2024/25",
+  "source_url": "https://football-data.co.uk/mmz4281/2425/E0.csv",
+  "source_columns": [
+    "Date",
+    "HomeTeam",
+    "AwayTeam",
+    "FTHG",
+    "FTAG"
+  ],
+  "base_file": "matches_clean.csv",
+  "base_sha256": "76ad09a49e1180815c25c70af167be756c72e02bc5eb4de8b6817b2cb34a50c5",
+  "raw_file": "E0_2024_2025.csv",
+  "raw_sha256": "464d8be538f925febc5093d8ba6995b297991e4b7e4f66c3f4a06ff8dd119712",
+  "output_file": "matches_validation.csv",
+  "output_sha256": "8edd0ce57d716049c1171a8e41ebb8c702c7bcd4c9249b452c5c4b6b7c543917",
+  "base_matches": 1140,
+  "total_matches": 1520,
+  "removed_exact_duplicates": 0
+}

@@ -1,0 +1,14 @@
+{
+  "primary_market": "one_x_two",
+  "primary_metric": "log_loss",
+  "selected_model": "fitted_poisson",
+  "primary_reference": "league_average",
+  "mean_loss_difference": -0.04868318335380782,
+  "ci_lower": -0.08276038923540623,
+  "ci_upper": -0.010868499990324415,
+  "observed_point_improvement": true,
+  "primary_interval_support": true,
+  "all_three_block_lengths_support": true,
+  "model_reselected_from_test": false,
+  "hyperparameters_tuned_from_test": false
+}

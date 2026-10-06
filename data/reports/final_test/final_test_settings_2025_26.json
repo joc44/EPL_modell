@@ -1,0 +1,47 @@
+{
+  "step": "18b",
+  "evaluation_role": "separate_final_test",
+  "evaluation_season": "2025/26",
+  "models": [
+    "league_average",
+    "time_weighted",
+    "fitted_poisson"
+  ],
+  "evaluated_matches": 380,
+  "prediction_rows": 1140,
+  "failed_matches_skipped": 0,
+  "model_reselected_from_test": false,
+  "hyperparameters_tuned_from_test": false,
+  "context": {
+    "protocol_id": "2ffa301e859eb9fa19a54b8561b8ff02aa4ef4ae0ba43be05b4898c1df88d3ee",
+    "protocol_file_sha256": "60497656c5862144e1e8b861ff85c3fb9301b18ac0dcd984fe0f25d8e70180ce",
+    "data_manifest_sha256": "001d084787c4c64c115b9d3591ca7540517f2d898d88bb53173e38bbdc789452",
+    "processed_data_sha256": "08fc96ac980efec488b736a8c71a2d63632c1b8bdf67a4f1a6decf46e3bef0ca",
+    "raw_data_sha256": "3e3a8352f9ada6789c508d6ca184424421fed56a30400904a4a327c583407e62",
+    "step18_source_sha256": {
+      "final_test_data.py": "09661f0307314ea075ae2926bb05b5a233536ed8e405583cedb8e193f1ac6c87",
+      "prepare_final_test_data.py": "8519dd03222aefcd961c3d62c0ca8f2b99a0a11c4071db94eccb5a86c5edb511",
+      "final_test_backtest.py": "63433739e0c6d74891a34a2a80c6d10b0ea4523751c141a64509f863cf244957",
+      "final_test_reports.py": "12ba5668bf79106ebdbe47809dc12302a8f1ff097fbceba646d1f2bc1855c43c",
+      "run_final_test.py": "236ede24900cd45a23303c4676a1d5e2837f0249621b24a9ee705e76e2356d42"
+    },
+    "runtime": {
+      "python": "3.12.14",
+      "pandas": "2.2.3",
+      "numpy": "2.3.5",
+      "scipy": "1.15.3"
+    }
+  },
+  "output_sha256": {
+    "final_predictions_2025_26.csv": "41d68a12b66593605b2128a933bce0c169b8d6639f98f605497a62254f64660e",
+    "final_summary_2025_26.csv": "6a5c5915715e12bc15ec7e4ba006ddcbf985c20bf8d71545bbb76687d51b1359",
+    "calibration_bins_2025_26.csv": "151541f786178d959b58026700aa54b980dc943942d5d9f07a482e9b968d65d4",
+    "calibration_summary_2025_26.csv": "c28fb4105e3246df9831bbe96c4665f1b3285fa1eb93c7089357d50d4270d840",
+    "paired_match_losses_2025_26.csv": "c7d249b85b5ca5b74795a71e0da8e96d9050cd2dad48401523e9e290b87e2669",
+    "bootstrap_intervals_2025_26.csv": "7ad2377878589549f2a1219ccea62dc430a53557e606d23b0ca450e33f7c32d5",
+    "block_sensitivity_2025_26.csv": "d5c3e1708b18bf6a3873204785ac438f4e0e8e7c12305231dd98ad5fbf651e0a",
+    "fitting_diagnostics_2025_26.csv": "fedc1159b5c3c5c3ac5b2e6b4fa6fd5ea01550080fbae0d184ea4974b8ace20c",
+    "primary_assessment_2025_26.json": "67b734d178f263b22b7f74a6e978876a9da7c0f1bf0fb4d61345a5ecda2cd10e",
+    "final_test_conclusions_2025_26.md": "f88d36b4d62ef03404ba5d3585f3075eb033bd116d299bc84ecb767f0675d3ac"
+  }
+}

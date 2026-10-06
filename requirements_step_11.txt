@@ -1,0 +1,3 @@
+# Compatibility file for the original Step 11 installation command.
+# The complete project requirements.txt already includes this dependency.
+scipy==1.15.3

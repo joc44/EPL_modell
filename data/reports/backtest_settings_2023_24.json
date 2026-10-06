@@ -1,0 +1,25 @@
+{
+  "step": 8,
+  "evaluation_season": "2023/24",
+  "evaluation_role": "development_backtest",
+  "models": [
+    "league_average",
+    "raw",
+    "smoothed",
+    "time_weighted"
+  ],
+  "evaluated_matches": 380,
+  "lookback_days": 730,
+  "prior_matches": 5.0,
+  "half_life_days": 180.0,
+  "history_rule": "match_date - lookback_days <= Date < match_date",
+  "same_day_results_used": false,
+  "evaluation_weighting": "equal_weight_per_match",
+  "log_loss_probability_floor": 1e-15,
+  "one_x_two_brier_scale": "0_to_2",
+  "binary_brier_scale": "0_to_1",
+  "data_file": "matches_clean.csv",
+  "data_sha256": "76ad09a49e1180815c25c70af167be756c72e02bc5eb4de8b6817b2cb34a50c5",
+  "python_version": "3.12.14",
+  "pandas_version": "2.2.3"
+}

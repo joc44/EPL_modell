@@ -1,0 +1,25 @@
+{
+  "step": "18a",
+  "evaluation_role": "separate_final_test_data",
+  "protocol_id": "2ffa301e859eb9fa19a54b8561b8ff02aa4ef4ae0ba43be05b4898c1df88d3ee",
+  "protocol_file_sha256": "60497656c5862144e1e8b861ff85c3fb9301b18ac0dcd984fe0f25d8e70180ce",
+  "final_test_season": "2025/26",
+  "source_url": "https://football-data.co.uk/mmz4281/2526/E0.csv",
+  "raw_file": "E0_2025_2026.csv",
+  "raw_sha256": "3e3a8352f9ada6789c508d6ca184424421fed56a30400904a4a327c583407e62",
+  "base_file": "matches_validation.csv",
+  "base_sha256": "8edd0ce57d716049c1171a8e41ebb8c702c7bcd4c9249b452c5c4b6b7c543917",
+  "output_file": "matches_final_test.csv",
+  "output_sha256": "08fc96ac980efec488b736a8c71a2d63632c1b8bdf67a4f1a6decf46e3bef0ca",
+  "base_matches": 1520,
+  "total_matches": 1900,
+  "final_test_matches": 380,
+  "removed_exact_duplicates": 0,
+  "step18_source_sha256": {
+    "final_test_data.py": "09661f0307314ea075ae2926bb05b5a233536ed8e405583cedb8e193f1ac6c87",
+    "prepare_final_test_data.py": "8519dd03222aefcd961c3d62c0ca8f2b99a0a11c4071db94eccb5a86c5edb511",
+    "final_test_backtest.py": "63433739e0c6d74891a34a2a80c6d10b0ea4523751c141a64509f863cf244957",
+    "final_test_reports.py": "12ba5668bf79106ebdbe47809dc12302a8f1ff097fbceba646d1f2bc1855c43c",
+    "run_final_test.py": "236ede24900cd45a23303c4676a1d5e2837f0249621b24a9ee705e76e2356d42"
+  }
+}

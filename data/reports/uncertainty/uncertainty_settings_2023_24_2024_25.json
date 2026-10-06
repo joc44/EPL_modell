@@ -1,0 +1,109 @@
+{
+  "step": 13,
+  "evaluation_role": "exploratory_development_diagnostics",
+  "evaluation_seasons": [
+    "2023/24",
+    "2024/25"
+  ],
+  "new_model": "fitted_poisson",
+  "reference_models": [
+    "league_average",
+    "raw",
+    "smoothed",
+    "time_weighted"
+  ],
+  "markets": [
+    "one_x_two",
+    "over_1_5",
+    "over_2_5",
+    "over_3_5",
+    "btts",
+    "exact_score"
+  ],
+  "evaluated_matches": 760,
+  "block_lengths_matchdays": [
+    3,
+    5,
+    10
+  ],
+  "primary_block_length_matchdays": 5,
+  "n_resamples_per_season_and_length": 5000,
+  "confidence_level": 0.95,
+  "base_seed": 42,
+  "seed_rule": "base_seed + 1000 * sorted_season_index + block_length",
+  "bootstrap_method": "non_circular_overlapping_moving_blocks_of_matchdays",
+  "interval_method": "percentile",
+  "quantile_method": "linear",
+  "pairing": "match_id",
+  "difference_sign": "new_model_minus_reference",
+  "resampling_unit": "complete_matchday",
+  "statistic_weighting": "equal_weight_per_resampled_match",
+  "resampled_matchday_count": "same_as_original_season",
+  "resampled_match_count": "varies_with_number_of_matches_on_selected_days",
+  "last_sampled_block_truncated": true,
+  "blocks_cross_season_boundary": false,
+  "same_resample_indices_for_all_comparisons": true,
+  "intervals_are_simultaneous": false,
+  "multiple_comparison_adjustment": false,
+  "bootstrap_negative_fraction_is_reported_as_probability": false,
+  "models_refitted_in_bootstrap": false,
+  "model_parameters_changed": false,
+  "conditioning": "fixed_saved_forecasts; excludes model_selection_and_refitting_uncertainty",
+  "assumption": "approximately stable loss-difference process with short-range dependence",
+  "final_test_season_reserved": "2025/26",
+  "source_context": {
+    "input_sha256": {
+      "data/processed/matches_clean.csv": "76ad09a49e1180815c25c70af167be756c72e02bc5eb4de8b6817b2cb34a50c5",
+      "data/processed/matches_validation.csv": "8edd0ce57d716049c1171a8e41ebb8c702c7bcd4c9249b452c5c4b6b7c543917",
+      "data/reports/backtest_predictions_2023_24.csv": "cf9650ddc01697b378f1294725c5c3048d99fccafede9afbbae211b003984a49",
+      "data/reports/backtest_summary_2023_24.csv": "de73d39872cc04b9ad0c1d971779ee6ee3b1860febb59490afe7c04f1fc8a8da",
+      "data/reports/backtest_settings_2023_24.json": "42eb0a1520b687f3a17dfb8661b4c37a0c587d0ac6de6efba01aabfcd6bab192",
+      "data/reports/backtest_predictions_2024_25.csv": "603352d348c4e59c507d78a270451417545ec6acfbe4a4280f30c46cc3d68c3a",
+      "data/reports/backtest_summary_2024_25.csv": "5fd64372e83060ada6cc1bcdffcb16581f292eaa380f769f69b74e4f3fc90d5e",
+      "data/reports/backtest_settings_2024_25.json": "18b2e6c1e2fe7618e546a7e8a67d8cc6d2909ac32800e247bd28026f3fe0c306",
+      "data/reports/fitted_backtest/fitted_backtest_settings_2023_24_2024_25.json": "e65ec034d87ed55af2391fe786c1f34ccf09fcea0b2a5f46901871b5f6a3e91d",
+      "data/reports/fitted_backtest/comparison_predictions_2023_24.csv": "4d0c5b222c371e68a5c1d4d051c2e040d7b0cd6c2ce9b9324ec5b33279b8ce18",
+      "data/reports/fitted_backtest/comparison_summary_2023_24.csv": "4a63d46421f51aecf27efa7fef2938a07add562da170d8b853c85929bdcac49e",
+      "data/reports/fitted_backtest/paired_loss_differences_2023_24.csv": "d4e8755ddf53b780f59717534d8b2e9592928f6e6f06bbcdb87c0513b529cdcc",
+      "data/reports/fitted_backtest/fitting_diagnostics_2023_24.csv": "1fa2b059ab1ed8a7b1f53a9b9990b8d16382dd6209cc059ab43d9f8dec8b0594",
+      "data/reports/fitted_backtest/comparison_predictions_2024_25.csv": "acc73291aaab201f5e8aeff2038ff527bb78ed7e5506230e2dff6dd69903bb20",
+      "data/reports/fitted_backtest/comparison_summary_2024_25.csv": "6a0fa3ac5962182f8eb2affcbd4f075aee7824ac3b8a22b9300bff8c42ad311c",
+      "data/reports/fitted_backtest/paired_loss_differences_2024_25.csv": "fb4c7fada6ed0d971213684390aab2544489a1d99ac2cac8d792352b06272693",
+      "data/reports/fitted_backtest/fitting_diagnostics_2024_25.csv": "98535450afc2c1e221408e404cddfb371c43f556a68f1e2209a11e134cdbc9f4"
+    },
+    "source_sha256": {
+      "analyze_match.py": "c41b38a762d60ebb18cbf535a34e91111ad3749eeb3c01cc2ff19703c8739ad4",
+      "time_weighted_model.py": "d53a7f02c42777b62de500cc652f848410189d9705cd471aa87778f4b54e30b4",
+      "score_probabilities.py": "b0100b5507a714c6c25bd8e4083c07a556592f1b1482ae91069bb62d67e31334",
+      "evaluation_metrics.py": "a1ad4571910cd194c2ead5ef670dcaae02b14077d3b2ed878cd24c7deb9b372f",
+      "fitted_poisson_model.py": "b74b939fe0ccd9a733b3524f780a08ce11a508fcac4fdc6c631e73bc8c21cbed",
+      "fitted_backtest.py": "8ade4268d35cdb96af50b3f03db2630ab3f64e150da2b4e004a5a5ca6bbfdc33",
+      "comparison_reports.py": "1e0786edcf244de54d7ebd515a017807492138aaa18c5484d49f86e439658ec5",
+      "run_fitted_backtest.py": "07c2ee2b5a227b0876f334efdcb1e4212cfaf331217acb70f4ed466e0d5068c6"
+    },
+    "matchdays_by_season": {
+      "2023/24": 120,
+      "2024/25": 109
+    },
+    "model_parameters": {
+      "lookback_days": 730,
+      "half_life_days": 180.0,
+      "ridge_strength": 1.0,
+      "reference_prior_matches": 5.0
+    }
+  },
+  "source_sha256": {
+    "uncertainty_analysis.py": "da7f11d29060457431cbf50c76435610877484046f07bab2f08f30c79d354547",
+    "uncertainty_reports.py": "ba14748fd766fd029444d52fbc40b3e84cca20d84086d7beee9279e57828fcaa",
+    "analyze_uncertainty.py": "84e88b0c2dbc4d57f79fd3ae40898eb8fbcc66fcad64bcbd0b561e3c9c64feab"
+  },
+  "python_version": "3.12.14",
+  "pandas_version": "2.2.3",
+  "numpy_version": "2.3.5",
+  "matplotlib_version": "3.10.8",
+  "method_sources": [
+    "https://stat.ethz.ch/R-manual/R-devel/library/boot/html/tsboot.html",
+    "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.bootstrap.html",
+    "https://doi.org/10.1214/aos/1176347265"
+  ]
+}

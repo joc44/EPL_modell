@@ -1,0 +1,635 @@
+{
+  "schema_version": 1,
+  "match_date": "2023-08-12",
+  "history_start": "2021-08-12",
+  "last_history_date": "2023-08-11",
+  "history_matches": 761,
+  "history_weight_sum": 220.32772073693397,
+  "lookback_days": 730,
+  "half_life_days": 180.0,
+  "ridge_strength": 1.0,
+  "model": "dixon_coles",
+  "free_parameters": 47,
+  "rho": 0.07392007471409293,
+  "low_score_history_matches": 260,
+  "low_score_history_weight_sum": 74.28600995221097,
+  "intercept_log": 0.15058191828028805,
+  "home_advantage_log": 0.2366134680866522,
+  "neutral_away_goal_base": 1.1625105320662714,
+  "home_advantage_factor": 1.266951306005013,
+  "attack_log_sum": -1.1102230246251565e-16,
+  "concede_log_sum": -2.3592239273284576e-16,
+  "teams": {
+    "Arsenal": {
+      "attack_log": 0.4967716937452376,
+      "concede_log": -0.13508693199476507,
+      "attack_factor": 1.6434072757263596,
+      "concede_factor": 0.8736399611222884,
+      "history_matches": 76,
+      "history_weight_sum": 21.980703117783513,
+      "home_history_matches": 38,
+      "away_history_matches": 38
+    },
+    "Aston Villa": {
+      "attack_log": 0.06498238730290318,
+      "concede_log": -0.21872294682912202,
+      "attack_factor": 1.0671402290010612,
+      "concede_factor": 0.8035443118165924,
+      "history_matches": 76,
+      "history_weight_sum": 21.84183549923033,
+      "home_history_matches": 38,
+      "away_history_matches": 38
+    },
+    "Bournemouth": {
+      "attack_log": -0.2686364686110981,
+      "concede_log": 0.1950252736354186,
+      "attack_factor": 0.7644210962060669,
+      "concede_factor": 1.2153417022046709,
+      "history_matches": 38,
+      "history_weight_sum": 17.528142730131325,
+      "home_history_matches": 19,
+      "away_history_matches": 19
+    },
+    "Brentford": {
+      "attack_log": 0.09901268195266791,
+      "concede_log": -0.21409131942509113,
+      "attack_factor": 1.10408030136422,
+      "concede_factor": 0.8072746617985455,
+      "history_matches": 76,
+      "history_weight_sum": 21.773547496026787,
+      "home_history_matches": 38,
+      "away_history_matches": 38
+    },
+    "Brighton": {
+      "attack_log": 0.3048667444344839,
+      "concede_log": -0.028257349509129247,
+      "attack_factor": 1.3564442372185463,
+      "concede_factor": 0.9721381553296482,
+      "history_matches": 76,
+      "history_weight_sum": 22.46063248629839,
+      "home_history_matches": 38,
+      "away_history_matches": 38
+    },
+    "Burnley": {
+      "attack_log": -0.4257809717918247,
+      "concede_log": 0.0655586198685942,
+      "attack_factor": 0.6532594086900555,
+      "concede_factor": 1.0677553271559446,
+      "history_matches": 39,
+      "history_weight_sum": 5.4077593473650865,
+      "home_history_matches": 20,
+      "away_history_matches": 19
+    },
+    "Chelsea": {
+      "attack_log": -0.12177841065083722,
+      "concede_log": -0.17035723742472483,
+      "attack_factor": 0.8853445296863279,
+      "concede_factor": 0.8433634817772139,
+      "history_matches": 76,
+      "history_weight_sum": 22.048299717454768,
+      "home_history_matches": 38,
+      "away_history_matches": 38
+    },
+    "Crystal Palace": {
+      "attack_log": -0.15012094343192975,
+      "concede_log": -0.15944265314637274,
+      "attack_factor": 0.8606038857431687,
+      "concede_factor": 0.8526188610034844,
+      "history_matches": 76,
+      "history_weight_sum": 21.905569727396237,
+      "home_history_matches": 38,
+      "away_history_matches": 38
+    },
+    "Everton": {
+      "attack_log": -0.25433170342715195,
+      "concede_log": 0.08287987360003106,
+      "attack_factor": 0.77543454508619,
+      "concede_factor": 1.086411294031638,
+      "history_matches": 76,
+      "history_weight_sum": 21.857025611133285,
+      "home_history_matches": 38,
+      "away_history_matches": 38
+    },
+    "Fulham": {
+      "attack_log": 0.09580806529984909,
+      "concede_log": -0.0537156482553186,
+      "attack_factor": 1.1005478104071882,
+      "concede_factor": 0.9477015487806248,
+      "history_matches": 38,
+      "history_weight_sum": 17.478245392774717,
+      "home_history_matches": 19,
+      "away_history_matches": 19
+    },
+    "Leeds": {
+      "attack_log": -0.05445898446199399,
+      "concede_log": 0.37483144582416666,
+      "attack_factor": 0.9469973496670681,
+      "concede_factor": 1.4547461904068288,
+      "history_matches": 76,
+      "history_weight_sum": 22.010839354554687,
+      "home_history_matches": 38,
+      "away_history_matches": 38
+    },
+    "Leicester": {
+      "attack_log": 0.05377671771573356,
+      "concede_log": 0.161508126951678,
+      "attack_factor": 1.0552489574507258,
+      "concede_factor": 1.1752820095796632,
+      "history_matches": 76,
+      "history_weight_sum": 21.943967164365066,
+      "home_history_matches": 38,
+      "away_history_matches": 38
+    },
+    "Liverpool": {
+      "attack_log": 0.44936127778714513,
+      "concede_log": -0.21575529336556037,
+      "attack_factor": 1.5673107895015808,
+      "concede_factor": 0.8059324947736718,
+      "history_matches": 76,
+      "history_weight_sum": 22.15918576136873,
+      "home_history_matches": 38,
+      "away_history_matches": 38
+    },
+    "Manchester City": {
+      "attack_log": 0.6093504493142661,
+      "concede_log": -0.5523135137245027,
+      "attack_factor": 1.8392363334742756,
+      "concede_factor": 0.5756165719032426,
+      "history_matches": 77,
+      "history_weight_sum": 22.986380621083953,
+      "home_history_matches": 38,
+      "away_history_matches": 39
+    },
+    "Manchester United": {
+      "attack_log": 0.12369879294972672,
+      "concede_log": -0.20902770380073155,
+      "attack_factor": 1.1316749511841124,
+      "concede_factor": 0.811372757222859,
+      "history_matches": 76,
+      "history_weight_sum": 22.127599875803448,
+      "home_history_matches": 38,
+      "away_history_matches": 38
+    },
+    "Newcastle": {
+      "attack_log": 0.23900324639280143,
+      "concede_log": -0.3192448666730246,
+      "attack_factor": 1.269982659439708,
+      "concede_factor": 0.7266975834987135,
+      "history_matches": 76,
+      "history_weight_sum": 22.011019109448956,
+      "home_history_matches": 38,
+      "away_history_matches": 38
+    },
+    "Norwich": {
+      "attack_log": -0.5583784746233873,
+      "concede_log": 0.4067020594389717,
+      "attack_factor": 0.5721360451999764,
+      "concede_factor": 1.5018565750059523,
+      "history_matches": 38,
+      "history_weight_sum": 4.256019526560357,
+      "home_history_matches": 19,
+      "away_history_matches": 19
+    },
+    "Nottingham Forest": {
+      "attack_log": -0.13956948289118878,
+      "concede_log": 0.17547167384360246,
+      "attack_factor": 0.8697325895699866,
+      "concede_factor": 1.1918082288268357,
+      "history_matches": 38,
+      "history_weight_sum": 17.536379548205154,
+      "home_history_matches": 19,
+      "away_history_matches": 19
+    },
+    "Southampton": {
+      "attack_log": -0.19246362729937921,
+      "concede_log": 0.2940115049629124,
+      "attack_factor": 0.8249243223833463,
+      "concede_factor": 1.341799340929822,
+      "history_matches": 76,
+      "history_weight_sum": 21.734276206980727,
+      "home_history_matches": 38,
+      "away_history_matches": 38
+    },
+    "Tottenham": {
+      "attack_log": 0.3556693387898294,
+      "concede_log": 0.12228942442662635,
+      "attack_factor": 1.427135571860732,
+      "concede_factor": 1.1300811275357934,
+      "history_matches": 76,
+      "history_weight_sum": 21.74106252218522,
+      "home_history_matches": 38,
+      "away_history_matches": 38
+    },
+    "Watford": {
+      "attack_log": -0.369588136268631,
+      "concede_log": 0.3422221153940006,
+      "attack_factor": 0.6910188776494304,
+      "concede_factor": 1.4080730174759164,
+      "history_matches": 38,
+      "history_weight_sum": 4.2989104413264165,
+      "home_history_matches": 19,
+      "away_history_matches": 19
+    },
+    "West Ham": {
+      "attack_log": -0.018540602610481634,
+      "concede_log": 0.02296184861468476,
+      "attack_factor": 0.9816302170332973,
+      "concede_factor": 1.0232275012558742,
+      "history_matches": 76,
+      "history_weight_sum": 21.862109495181485,
+      "home_history_matches": 38,
+      "away_history_matches": 38
+    },
+    "Wolverhampton Wanderers": {
+      "attack_log": -0.33865358961674047,
+      "concede_log": 0.032553497587656,
+      "attack_factor": 0.7127293031613847,
+      "concede_factor": 1.0330891594435163,
+      "history_matches": 76,
+      "history_weight_sum": 21.705930721209345,
+      "home_history_matches": 38,
+      "away_history_matches": 38
+    }
+  },
+  "prediction_domain": "all_known_team_pairs_and_neutral_unknown_teams",
+  "rho_domain_at_fitted_rates": {
+    "lower": -0.24579733965463682,
+    "upper": 0.2522282519764369
+  },
+  "poisson_start_model": {
+    "model": "fitted_poisson",
+    "schema_version": 1,
+    "match_date": "2023-08-12",
+    "history_start": "2021-08-12",
+    "last_history_date": "2023-08-11",
+    "history_matches": 761,
+    "history_weight_sum": 220.32772073693397,
+    "lookback_days": 730,
+    "half_life_days": 180.0,
+    "ridge_strength": 1.0,
+    "free_parameters": 46,
+    "intercept_log": 0.1493002538658738,
+    "home_advantage_log": 0.24008022044106578,
+    "neutral_away_goal_base": 1.1610215380850661,
+    "home_advantage_factor": 1.2713511345795043,
+    "attack_log_sum": -1.6653345369377348e-16,
+    "concede_log_sum": -3.2612801348363973e-16,
+    "teams": {
+      "Arsenal": {
+        "attack_log": 0.49521984108332257,
+        "concede_log": -0.13581909974227452,
+        "attack_factor": 1.6408589276127359,
+        "concede_factor": 0.8730005442285969,
+        "history_matches": 76,
+        "history_weight_sum": 21.980703117783513,
+        "home_history_matches": 38,
+        "away_history_matches": 38
+      },
+      "Aston Villa": {
+        "attack_log": 0.06118693535197153,
+        "concede_log": -0.22141345023788914,
+        "attack_factor": 1.063097626142395,
+        "concede_factor": 0.8013852788517323,
+        "history_matches": 76,
+        "history_weight_sum": 21.84183549923033,
+        "home_history_matches": 38,
+        "away_history_matches": 38
+      },
+      "Bournemouth": {
+        "attack_log": -0.2742600351095043,
+        "concede_log": 0.18847523519014547,
+        "attack_factor": 0.7601343879303692,
+        "concede_factor": 1.2074071814070986,
+        "history_matches": 38,
+        "history_weight_sum": 17.528142730131325,
+        "home_history_matches": 19,
+        "away_history_matches": 19
+      },
+      "Brentford": {
+        "attack_log": 0.10044126567852855,
+        "concede_log": -0.20999835202825073,
+        "attack_factor": 1.1056586996834286,
+        "concede_factor": 0.8105855817912255,
+        "history_matches": 76,
+        "history_weight_sum": 21.773547496026787,
+        "home_history_matches": 38,
+        "away_history_matches": 38
+      },
+      "Brighton": {
+        "attack_log": 0.30707585494905376,
+        "concede_log": -0.02745043104913228,
+        "attack_factor": 1.3594440847227651,
+        "concede_factor": 0.9729229081260296,
+        "history_matches": 76,
+        "history_weight_sum": 22.46063248629839,
+        "home_history_matches": 38,
+        "away_history_matches": 38
+      },
+      "Burnley": {
+        "attack_log": -0.42145572150675437,
+        "concede_log": 0.06881243691546324,
+        "attack_factor": 0.6560910384730201,
+        "concede_factor": 1.0712352661134108,
+        "history_matches": 39,
+        "history_weight_sum": 5.4077593473650865,
+        "home_history_matches": 20,
+        "away_history_matches": 19
+      },
+      "Chelsea": {
+        "attack_log": -0.12133770326404247,
+        "concede_log": -0.16643976958384823,
+        "attack_factor": 0.8857347935501864,
+        "concede_factor": 0.8466738109157061,
+        "history_matches": 76,
+        "history_weight_sum": 22.048299717454768,
+        "home_history_matches": 38,
+        "away_history_matches": 38
+      },
+      "Crystal Palace": {
+        "attack_log": -0.1474271432966654,
+        "concede_log": -0.15056609424746778,
+        "attack_factor": 0.862925305924198,
+        "concede_factor": 0.8602208724772336,
+        "history_matches": 76,
+        "history_weight_sum": 21.905569727396237,
+        "home_history_matches": 38,
+        "away_history_matches": 38
+      },
+      "Everton": {
+        "attack_log": -0.2498060806548814,
+        "concede_log": 0.08012918619037213,
+        "attack_factor": 0.7789518222534723,
+        "concede_factor": 1.083427022444228,
+        "history_matches": 76,
+        "history_weight_sum": 21.857025611133285,
+        "home_history_matches": 38,
+        "away_history_matches": 38
+      },
+      "Fulham": {
+        "attack_log": 0.09108535542633303,
+        "concede_log": -0.05323397563958482,
+        "attack_factor": 1.09536249640129,
+        "concede_factor": 0.9481581406196259,
+        "history_matches": 38,
+        "history_weight_sum": 17.478245392774717,
+        "home_history_matches": 19,
+        "away_history_matches": 19
+      },
+      "Leeds": {
+        "attack_log": -0.05139124898443982,
+        "concede_log": 0.37903451312428676,
+        "attack_factor": 0.9499069476904803,
+        "concede_factor": 1.4608734541804693,
+        "history_matches": 76,
+        "history_weight_sum": 22.010839354554687,
+        "home_history_matches": 38,
+        "away_history_matches": 38
+      },
+      "Leicester": {
+        "attack_log": 0.05110091217371568,
+        "concede_log": 0.16515669406934425,
+        "attack_factor": 1.0524290908320386,
+        "concede_factor": 1.1795779370981125,
+        "history_matches": 76,
+        "history_weight_sum": 21.943967164365066,
+        "home_history_matches": 38,
+        "away_history_matches": 38
+      },
+      "Liverpool": {
+        "attack_log": 0.45210546515632577,
+        "concede_log": -0.21329217464196817,
+        "attack_factor": 1.5716176907429222,
+        "concede_factor": 0.8079200489776206,
+        "history_matches": 76,
+        "history_weight_sum": 22.15918576136873,
+        "home_history_matches": 38,
+        "away_history_matches": 38
+      },
+      "Manchester City": {
+        "attack_log": 0.6057101003474069,
+        "concede_log": -0.5583770521862081,
+        "attack_factor": 1.8325530435223951,
+        "concede_factor": 0.5721368590281375,
+        "history_matches": 77,
+        "history_weight_sum": 22.986380621083953,
+        "home_history_matches": 38,
+        "away_history_matches": 39
+      },
+      "Manchester United": {
+        "attack_log": 0.12258666038745707,
+        "concede_log": -0.21341383558617993,
+        "attack_factor": 1.1304170782113905,
+        "concede_factor": 0.8078217626405398,
+        "history_matches": 76,
+        "history_weight_sum": 22.127599875803448,
+        "home_history_matches": 38,
+        "away_history_matches": 38
+      },
+      "Newcastle": {
+        "attack_log": 0.24969351645409227,
+        "concede_log": -0.30454407023728947,
+        "attack_factor": 1.283631944324482,
+        "concede_factor": 0.7374595275020833,
+        "history_matches": 76,
+        "history_weight_sum": 22.011019109448956,
+        "home_history_matches": 38,
+        "away_history_matches": 38
+      },
+      "Norwich": {
+        "attack_log": -0.5483950860561474,
+        "concede_log": 0.411319155980527,
+        "attack_factor": 0.5778765086126149,
+        "concede_factor": 1.5088068244437747,
+        "history_matches": 38,
+        "history_weight_sum": 4.256019526560357,
+        "home_history_matches": 19,
+        "away_history_matches": 19
+      },
+      "Nottingham Forest": {
+        "attack_log": -0.13789028650294707,
+        "concede_log": 0.1684982147436832,
+        "attack_factor": 0.8711942682724696,
+        "concede_factor": 1.1835261139455016,
+        "history_matches": 38,
+        "history_weight_sum": 17.536379548205154,
+        "home_history_matches": 19,
+        "away_history_matches": 19
+      },
+      "Southampton": {
+        "attack_log": -0.20123470867883295,
+        "concede_log": 0.291203629719949,
+        "attack_factor": 0.8177204829345329,
+        "concede_factor": 1.3380370203147516,
+        "history_matches": 76,
+        "history_weight_sum": 21.734276206980727,
+        "home_history_matches": 38,
+        "away_history_matches": 38
+      },
+      "Tottenham": {
+        "attack_log": 0.35369212656354143,
+        "concede_log": 0.11542338305086268,
+        "attack_factor": 1.4243166097210458,
+        "concede_factor": 1.1223485203345174,
+        "history_matches": 76,
+        "history_weight_sum": 21.74106252218522,
+        "home_history_matches": 38,
+        "away_history_matches": 38
+      },
+      "Watford": {
+        "attack_log": -0.3702127985441797,
+        "concede_log": 0.3446007682079514,
+        "attack_factor": 0.6905873590156083,
+        "concede_factor": 1.4114263209124318,
+        "history_matches": 38,
+        "history_weight_sum": 4.2989104413264165,
+        "home_history_matches": 19,
+        "away_history_matches": 19
+      },
+      "West Ham": {
+        "attack_log": -0.024100566952076016,
+        "concede_log": 0.016258106878579922,
+        "attack_factor": 0.9761875326164943,
+        "concede_factor": 1.0163909890590528,
+        "history_matches": 76,
+        "history_weight_sum": 21.862109495181485,
+        "home_history_matches": 38,
+        "away_history_matches": 38
+      },
+      "Wolverhampton Wanderers": {
+        "attack_log": -0.3423866540212777,
+        "concede_log": 0.02563698110892799,
+        "attack_factor": 0.7100735988114775,
+        "concede_factor": 1.0259684349392815,
+        "history_matches": 76,
+        "history_weight_sum": 21.705930721209345,
+        "home_history_matches": 38,
+        "away_history_matches": 38
+      }
+    },
+    "optimizer": {
+      "method": "L-BFGS-B",
+      "success": true,
+      "iterations": 42,
+      "refinement_method": "Newton if needed",
+      "refinement_steps": 0,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "gradient_max_abs": 3.511820206636429e-06,
+      "gradient_acceptance_tolerance": 0.0001,
+      "initial_penalized_nll": 689.4881633966829,
+      "final_penalized_nll": 645.0487262885091,
+      "weighted_negative_log_likelihood": 643.3479335855845,
+      "l2_penalty": 1.7007927029244825
+    }
+  },
+  "optimizer": {
+    "method": "SLSQP",
+    "success": true,
+    "iterations": 40,
+    "message": "Optimization terminated successfully",
+    "gradient_max_abs": 4.749971316345136e-07,
+    "stationarity_max_abs": 4.749971316345136e-07,
+    "stationarity_acceptance_tolerance": 0.0001,
+    "active_tau_constraints": 0,
+    "minimum_tau_all_pairs": 0.7069318230782577,
+    "tau_constraint_floor": 1e-08,
+    "constraint_pairs": 553,
+    "constraint_count": 2212,
+    "initial_penalized_nll": 645.0487262885091,
+    "final_penalized_nll": 644.7159705180745,
+    "weighted_negative_log_likelihood": 643.0081052264086,
+    "l2_penalty": 1.7078652916658004,
+    "penalty_rule": "0.5 * ridge_strength * sum(attack_log**2 + concede_log**2); rho unpenalized"
+  },
+  "step": 14,
+  "evaluation_role": "single_fixture_demonstration",
+  "match_id": "EPL|2023/24|2023-08-12|Arsenal|Nottingham Forest",
+  "home_team": "Arsenal",
+  "away_team": "Nottingham Forest",
+  "data_file": "matches_clean.csv",
+  "data_sha256": "76ad09a49e1180815c25c70af167be756c72e02bc5eb4de8b6817b2cb34a50c5",
+  "history_rule": "match_date - lookback_days <= Date < match_date",
+  "same_day_results_used": false,
+  "final_test_season_reserved": "2025/26",
+  "prediction": {
+    "lambda_home": 2.8847514794823232,
+    "lambda_away": 0.8833140345342968,
+    "lambda_total": 3.76806551401662,
+    "home_attack_factor": 1.6434072757263596,
+    "home_concede_factor": 0.8736399611222884,
+    "away_attack_factor": 0.8697325895699866,
+    "away_concede_factor": 1.1918082288268357,
+    "home_unknown": false,
+    "away_unknown": false,
+    "home_history_matches": 76,
+    "away_history_matches": 38,
+    "rho": 0.07392007471409293,
+    "minimum_tau": 0.8116411923055561
+  },
+  "probabilities": {
+    "one_x_two": {
+      "home": 0.7867730875858922,
+      "draw": 0.12323193092729172,
+      "away": 0.08999498148681606
+    },
+    "over_under": {
+      "1.5": {
+        "under": 0.1144770473303497,
+        "over": 0.8855229526696502
+      },
+      "2.5": {
+        "under": 0.27409372524348535,
+        "over": 0.7259062747565146
+      },
+      "3.5": {
+        "under": 0.48004003989223903,
+        "over": 0.5199599601077609
+      }
+    },
+    "btts": {
+      "yes": 0.5494669790556675,
+      "no": 0.45053302094433245
+    },
+    "top_scores": [
+      {
+        "home_goals": 2,
+        "away_goals": 0,
+        "probability": 0.0961029576572989
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 0,
+        "probability": 0.09241104976150669
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 1,
+        "probability": 0.08488909125894738
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 1,
+        "probability": 0.08162797720038613
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 0,
+        "probability": 0.07097870742331243
+      }
+    ]
+  },
+  "omitted_probability": 5.647260437058321e-11,
+  "source_sha256": {
+    "analyze_match.py": "c41b38a762d60ebb18cbf535a34e91111ad3749eeb3c01cc2ff19703c8739ad4",
+    "time_weighted_model.py": "d53a7f02c42777b62de500cc652f848410189d9705cd471aa87778f4b54e30b4",
+    "score_probabilities.py": "b0100b5507a714c6c25bd8e4083c07a556592f1b1482ae91069bb62d67e31334",
+    "fitted_poisson_model.py": "b74b939fe0ccd9a733b3524f780a08ce11a508fcac4fdc6c631e73bc8c21cbed",
+    "dixon_coles_probabilities.py": "6fff11c4be250b056a5070f27b6600c984332941fdd2c2dc7ae59cafe00bda39",
+    "dixon_coles_model.py": "8385ae4386426812b567f13d9541f09e65a54e36cb1fdf5418aaec7a93249785",
+    "predict_dixon_coles.py": "6cf154e6f388415da0a257a4408cbce64224612829c0c5fa3166118a80d56541"
+  },
+  "python_version": "3.12.14",
+  "pandas_version": "2.2.3",
+  "numpy_version": "2.3.5",
+  "scipy_version": "1.15.3",
+  "method_source": "https://doi.org/10.1111/1467-9876.00065"
+}
